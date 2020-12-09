@@ -1,8 +1,12 @@
-Docker Image : 
+# Name : Keval Kavle
+# Subject : CS643 - Cloud Computing
+
+
+# Docker Image : 
 https://hub.docker.com/repository/docker/kkdockernet/wine-quality-prediction
 
 
-Github Link to Code : 
+# Github Link to Code : 
 https://github.com/KKGITHUBNET/Cloud-Computing
 
 
