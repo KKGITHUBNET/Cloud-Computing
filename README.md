@@ -1,12 +1,12 @@
-# Name : Keval Kavle
-# Subject : CS643 - Cloud Computing
+### Name : Keval Kavle
+### Subject : CS643 - Cloud Computing
 
 
-# Docker Image : 
+## Docker Image : 
 https://hub.docker.com/repository/docker/kkdockernet/wine-quality-prediction
 
 
-# Github Link to Code : 
+## Github Link to Code : 
 https://github.com/KKGITHUBNET/Cloud-Computing
 
 
@@ -57,7 +57,7 @@ sudo nano /etc/sudoers
 Update this line -> Defaults    secure_path = /sbin:/bin:/usr/sbin:/usr/bin
 add “/usr/local/bin” to this PATH
 
-# Install pip, python, and other libraries
+## Install pip, python, and other libraries
 
 sudo easy_install pip
 sudo pip install --upgrade pip
@@ -79,9 +79,9 @@ sudo pip install numpy
 
 5.	Run Program : 
 
-# Program for validation dataset  (training)
+## Program for validation dataset  (training)
 >  python train.py
-# Program to run for testdataset  (predictions)
+## Program to run for testdataset  (predictions)
 >  python traintest.py
 
 
@@ -109,6 +109,6 @@ sudo docker push  kkdockernet/wine-quality-prediction
 	
 			sudo docker pull kkdockernet/wine-quality-prediction
 			
-# Please check following guideline to run the docker image :
+## Please check following guideline to run the docker image :
 		##### sudo docker run –v <Testfile> -t <DockerImage> <path for testfile (only path and not the name.)>
 		      sudo docker run -v TestDataset.csv -t kkdockernet/dockertrial ./
