@@ -106,5 +106,5 @@ sudo docker push  kkdockernet/wine-quality-prediction
 			sudo docker pull kkdockernet/wine-quality-prediction
 			
 # Please check following guideline to run the docker image :
-# sudo docker run –v <Testfile> -t <DockerImage> <path for testfile (only path and not the name.)>
-sudo docker run -v TestDataset.csv -t kkdockernet/dockertrial ./
+		##### sudo docker run –v <Testfile> -t <DockerImage> <path for testfile (only path and not the name.)>
+		      sudo docker run -v TestDataset.csv -t kkdockernet/dockertrial ./
