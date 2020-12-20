@@ -46,8 +46,9 @@ RUN  pip install numpy
 RUN pwd
 
 ### Copy the dataset to docker image
-COPY traintest.py traintest.py
+COPY postsubmissionTest.py postsubmissionTest.py
 COPY TrainingDataset.csv TrainingDataset.csv
+COPY rfModel rfModel
 
 RUN ls -la /*
 
