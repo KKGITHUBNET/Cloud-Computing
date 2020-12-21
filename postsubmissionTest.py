@@ -216,7 +216,7 @@ evalAcc = MulticlassClassificationEvaluator(
     labelCol="quality", predictionCol="prediction", metricName="accuracy")
 accuracy = evalAcc.evaluate(predictions)
 
-print("accuracy Test Error = %g" % (1.0 - accuracy))
+#print("accuracy Test Error = %g" % (1.0 - accuracy))
 
 
 transformed_data = model.transform(val)
@@ -231,7 +231,7 @@ print(evalAcc.getMetricName(), 'accuracy:', evalAcc.evaluate(transformed_data))
 evalVal = MulticlassClassificationEvaluator(
     labelCol="quality", predictionCol="prediction", metricName="f1")
 accuracy = evalVal.evaluate(predictions)
-print("f1 Test Error = %g" % (1.0 - accuracy))
+#print("f1 Test Error = %g" % (1.0 - accuracy))
 transformed_data = model.transform(val)
 transformed_data = transformed_data.withColumn("prediction", func.round("prediction"))
 print(evalVal.getMetricName(), 'accuracy :', evalVal.evaluate(transformed_data))
